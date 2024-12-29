@@ -38,7 +38,7 @@ body {
     gap: 10px;
 }
 
-.buttons input {
+.key {
     border: 2px white solid;
     background-color: black;
     height: 80px;
@@ -47,6 +47,11 @@ body {
     font-size: 40px;
     color: white;
     cursor: pointer;
+}
+
+.active {
+    border: 2px solid #FF0;
+    color: #FF0;
 }
 
 .composition {
